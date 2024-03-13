@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "python-poetry-starter"
+name = "app"
 version = "0.1.0"
 description = ""
 authors = ["kpinakula <7438240+kpinakula@users.noreply.github.com>"]
 readme = "README.md"
-packages = [{include = "python_poetry_starter"}]
+packages = [{include = "app"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 

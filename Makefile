@@ -8,7 +8,6 @@ check:
 		poetry run black . --check
 
 test:
-	$(MAKE) lint
 	poetry run pytest
 
 test-watch:

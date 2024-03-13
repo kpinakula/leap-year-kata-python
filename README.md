@@ -9,6 +9,10 @@ It uses [Poetry](https://python-poetry.org/) for dependency management and [Pyte
 * Python 3.8+
 * Poetry
 
+## Getting started
+
+Run `make install` to get all dependencies installed
+
 ## Linting
 
 Code formatting can be done using [Black](https://black.readthedocs.io/).
@@ -37,4 +41,11 @@ make test-watch
 
 ## The Kata
 
-Placeholder for the kata description.
+A leap year is defined as one that is divisible by 4, but is not otherwise divisible by 100 unless it is also divisible by 400.
+
+For example:
+
+- 2001 is a typical common year
+- 1996 is a typical leap year
+- 1900 is an atypical common year
+- 2000 is an atypical leap year
