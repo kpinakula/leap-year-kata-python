@@ -1,4 +1,4 @@
-from app.leap_year_checker import LeapYearChecker
+from app.year import Year
 
 # A leap year is defined as one that is divisible by 4, but is not otherwise divisible by 100 unless it is also divisible by 400.
 
@@ -11,6 +11,5 @@ from app.leap_year_checker import LeapYearChecker
 
 class TestYear:
     def test_common_year(self):
-        year = 2001
-        leap_year_checker = LeapYearChecker()
-        assert leap_year_checker.is_leap_year(year) == False
+        year = Year(2001)
+        assert year.is_leap_year() == False
