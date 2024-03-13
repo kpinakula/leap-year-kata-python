@@ -3,6 +3,9 @@ class Year:
         self.year = year
 
     def is_leap_year(self):
+        if self.year % 400 == 0:
+            return True
+
         if self.year % 100 == 0:
             return False
 

@@ -21,3 +21,7 @@ class TestYear:
     def test_atypical_common_year(self):
         year = Year(1900)
         assert year.is_leap_year() == False
+
+    def test_atypical_leap_year(self):
+        year = Year(2000)
+        assert year.is_leap_year() == True
