@@ -1,6 +1,6 @@
 class Year:
     def __init__(self, year):
-        pass
+        self.year = year
 
     def is_leap_year(self):
-        return False
+        return self.year % 4 == 0

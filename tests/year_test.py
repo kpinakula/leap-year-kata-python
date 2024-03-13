@@ -10,6 +10,10 @@ from app.year import Year
 
 
 class TestYear:
-    def test_common_year(self):
+    def test_typical_common_year(self):
         year = Year(2001)
         assert year.is_leap_year() == False
+
+    def test_typical_leap_year(self):
+        year = Year(1996)
+        assert year.is_leap_year() == True
